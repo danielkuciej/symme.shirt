@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+}
+
+body {
+  color: #444;
+  font-weight: 300;
+  background-color: #f3f3f3;
+}
+
+/* NAVIGATION */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+li {
+  margin-left: 20px;
+}
+
+.nav-cart_btn {
+  margin-left: 20px;
+  padding: 15px 25px;
+  border-radius: 50px;
+  border: #444 solid 1px;
+  font-weight: 500;
+}
+
+.nav-cart_btn:hover {
+  background-color: black;
+  color: #f3f3f3;
+}
