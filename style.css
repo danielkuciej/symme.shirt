@@ -72,14 +72,14 @@ li {
 
 /* MAIN CONTAINER */
 .main-container {
-  margin: 20px auto;
-  width: 1200px;
-  height: auto;
   display: grid;
   /* background-color: black; */
 }
 
 .images-board {
+  width: 1200px;
+  margin: 20px auto;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(7, 154px);
   grid-template-rows: repeat(3, 154px);
@@ -158,5 +158,101 @@ li {
 
 .our-collection_text {
   font-size: 44px;
-  margin: 80px auto 800px auto;
+  margin: 80px auto 50px auto;
 }
+
+/* PRODUCTS SECTION */
+.prev-box_left {
+  /* background: linear-gradient(to right, #000000, #ffffff); */
+  background-color: #adb5bd;
+  margin-bottom: 1px;
+}
+.prev-box_right {
+  /* background: linear-gradient(to right, #ffffff, #000000); */
+  background-color: #adb5bd;
+}
+
+.shirts-prev_left {
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+  display: grid;
+  justify-items: left;
+  align-items: center;
+  grid-template-columns: 300px 1fr;
+  gap: 20px;
+  /* border: #444 solid 1px; */
+}
+.shirts-prev_right {
+  width: 1200px;
+  height: 300px;
+  margin: auto;
+  display: grid;
+  justify-items: right;
+  align-items: center;
+  grid-template-columns: 1fr 300px;
+  gap: 20px;
+  /* border: #444 solid 1px; */
+}
+
+.shirts-img_prev {
+  height: 200px;
+  width: auto;
+}
+
+.product-description h2 {
+  margin-bottom: 30px;
+  color: #ffd700;
+}
+
+.product-description p {
+  color: wheat;
+  margin-bottom: 30px;
+}
+
+.colors {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.el {
+  border-radius: 50px;
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+  border: #000000 solid 1px;
+}
+
+.el:nth-child(2) {
+  background-color: #000000;
+  border: #ffffff solid 1px;
+}
+
+.more-btn {
+  padding: 10px 25px;
+  border-radius: 10px;
+  background-color: #000000;
+  color: #f3f3f3;
+  /* border: #f3f3f3 solid 1px; */
+  font-weight: 500;
+}
+
+/* .other {
+  width: 100px;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.shirts-img_prev-bar {
+  height: 100px;
+  margin: 0px;
+  width: auto;
+  padding-bottom: ;
+} */
+
+/* .more-btn_bar {
+  width: 100%;
+  margin: 0px;
+  border: 0;
+} */
