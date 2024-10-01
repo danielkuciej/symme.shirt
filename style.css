@@ -28,11 +28,10 @@ nav {
 }
 
 li {
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .nav-cart_btn {
-  margin-left: 20px;
   padding: 15px 25px;
   border-radius: 50px;
   border: #444 solid 1px;
@@ -48,7 +47,7 @@ li {
 /* .showcase {
 } */
 
-.showcase-img {
+/* .showcase-img {
   width: 100%;
   height: 300px;
 }
@@ -68,12 +67,11 @@ li {
   word-wrap: break-word;
   text-align: center;
   line-height: 0.5;
-}
+} */
 
 /* MAIN CONTAINER */
 .main-container {
   display: grid;
-  /* background-color: black; */
 }
 
 .images-board {
@@ -81,8 +79,8 @@ li {
   margin: 20px auto;
   height: auto;
   display: grid;
-  grid-template-columns: repeat(7, 154px);
-  grid-template-rows: repeat(3, 154px);
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 20px;
 }
 
@@ -162,13 +160,13 @@ li {
 }
 
 /* PRODUCTS SECTION */
-.prev-box_left {
-  /* background: linear-gradient(to right, #000000, #ffffff); */
+/* .prev-box_left {
+  background: linear-gradient(to right, #000000, #ffffff);
   background-color: #adb5bd;
   margin-bottom: 1px;
 }
 .prev-box_right {
-  /* background: linear-gradient(to right, #ffffff, #000000); */
+  background: linear-gradient(to right, #ffffff, #000000);
   background-color: #adb5bd;
 }
 
@@ -181,7 +179,7 @@ li {
   align-items: center;
   grid-template-columns: 300px 1fr;
   gap: 20px;
-  /* border: #444 solid 1px; */
+  border: #444 solid 1px;
 }
 .shirts-prev_right {
   width: 1200px;
@@ -192,7 +190,7 @@ li {
   align-items: center;
   grid-template-columns: 1fr 300px;
   gap: 20px;
-  /* border: #444 solid 1px; */
+  border: #444 solid 1px;
 }
 
 .shirts-img_prev {
@@ -234,11 +232,11 @@ li {
   border-radius: 10px;
   background-color: #000000;
   color: #f3f3f3;
-  /* border: #f3f3f3 solid 1px; */
+  border: #f3f3f3 solid 1px;
   font-weight: 500;
 }
 
-/* .other {
+.other {
   width: 100px;
   height: 100px;
   background-color: #ffffff;
@@ -248,11 +246,41 @@ li {
   height: 100px;
   margin: 0px;
   width: auto;
-  padding-bottom: ;
-} */
+}
 
-/* .more-btn_bar {
+.more-btn_bar {
   width: 100%;
   margin: 0px;
   border: 0;
 } */
+
+.products-section {
+  width: 1200px;
+  margin: auto;
+}
+
+.left-prev {
+  display: flex;
+  gap: 20px;
+}
+
+.product-carousel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.product-carousel_info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.big-img {
+  width: 580px;
+  height: 400px;
+}
+
+.product-carousel_img {
+  width: 290px;
+}
