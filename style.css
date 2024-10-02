@@ -156,7 +156,6 @@ li {
 
 .our-collection_text {
   font-size: 30px;
-  margin: 80px auto 10px auto;
 }
 
 /* PRODUCTS SECTION */
@@ -256,8 +255,8 @@ li {
 
 .products-section {
   width: 1200px;
-  height: 2000px;
-  margin: auto;
+  margin: 50px auto;
+  /* height: 2000px; */
 }
 
 .preview {
