@@ -155,8 +155,8 @@ li {
 }
 
 .our-collection_text {
-  font-size: 44px;
-  margin: 80px auto 50px auto;
+  font-size: 30px;
+  margin: 80px auto 10px auto;
 }
 
 /* PRODUCTS SECTION */
@@ -273,11 +273,13 @@ li {
   gap: 14px;
 }
 
-.prod-carousel_box {
+/* .prod-carousel_box {
   display: grid;
-}
+  border: #dee2e6 solid 1px;
+} */
 
 .product-carousel_info {
+  margin-top: 30px;
   display: flex;
   justify-content: space-between;
 }
