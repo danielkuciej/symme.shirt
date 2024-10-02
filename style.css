@@ -256,24 +256,34 @@ li {
 
 .products-section {
   width: 1200px;
+  height: 2000px;
   margin: auto;
 }
 
-.left-prev {
+.preview {
   display: flex;
-  gap: 20px;
+  gap: 14px;
+  margin-bottom: 14px;
 }
 
-.product-carousel {
+.products-carousel {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 20px;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  gap: 14px;
+}
+
+.prod-carousel_box {
+  display: grid;
 }
 
 .product-carousel_info {
   display: flex;
   justify-content: space-between;
+}
+
+.product-carousel_info p {
+  font-size: 16px;
 }
 
 .big-img {
@@ -282,5 +292,5 @@ li {
 }
 
 .product-carousel_img {
-  width: 290px;
+  width: 283px;
 }
