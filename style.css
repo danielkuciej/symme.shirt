@@ -10,9 +10,11 @@ html {
 
 body {
   color: #444;
+  /* color: #f3f3f3; */
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   background-color: #f3f3f3;
+  /* background-color: #444; */
 }
 
 /* NAVIGATION */
@@ -42,9 +44,7 @@ nav li:nth-child(4) {
 }
 
 nav li:hover {
-  /* color: #ffd300; */
   color: #ffd300;
-  /* font-size: 50px; */
   text-shadow: -0.15px 0.15px 0 #444, 0.15px 0.15px 0 #444,
     0.15px -0.15px 0 #444, -0.15px -0.15px 0 #444;
 }
@@ -59,7 +59,9 @@ nav li:hover {
 
 .nav-cart_btn:hover {
   background-color: #333;
+  /* background-color: #ffd300;s */
   color: #f3f3f3;
+  /* color: #444; */
   font-size: 14px;
   font-weight: 500;
 }
@@ -362,6 +364,7 @@ nav li:hover {
 /* FOOTER */
 footer {
   background-color: #ffd300;
+  color: #444;
   height: 600px;
   align-content: center;
 }
