@@ -322,3 +322,18 @@ li {
 .social-img {
   width: 386px;
 }
+
+.icon {
+  width: 100px;
+  position: absolute;
+  margin: 78px 143px;
+}
+
+.instagram {
+  /* fill: linear-gradient(to right #ffdc80, #fcaf45, #e1306c, #405de6); */
+  fill: #f3f3f3;
+}
+
+.event {
+  fill: #f3f3f3;
+}
