@@ -28,39 +28,39 @@ nav {
   display: flex;
   list-style: none;
   align-items: center;
-  font-size: 18px;
+  font-size: 14px;
 }
 
-li {
+nav li {
   padding-right: 40px;
   padding-left: 40px;
   border-right: #444 solid 1px;
 }
 
-li:nth-child(4) {
+nav li:nth-child(4) {
   border: none;
 }
 
-li:hover {
+nav li:hover {
   /* color: #ffd300; */
   color: #ffd300;
   /* font-size: 50px; */
-  text-shadow: -0.2px 0.2px 0 #444, 0.2px 0.2px 0 #444, 0.2px -0.2px 0 #444,
-    -0.2px -0.2px 0 #444;
+  text-shadow: -0.15px 0.15px 0 #444, 0.15px 0.15px 0 #444,
+    0.15px -0.15px 0 #444, -0.15px -0.15px 0 #444;
 }
 
 .nav-cart_btn {
   padding: 15px 25px;
   border-radius: 50px;
   border: #444 solid 1px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
 }
 
 .nav-cart_btn:hover {
-  background-color: black;
+  background-color: #333;
   color: #f3f3f3;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -98,7 +98,7 @@ li:hover {
 .images-board {
   width: 1200px;
   /* margin: 20px auto; */
-  margin: 0px auto 50px auto;
+  margin: 0px auto 80px auto;
   height: auto;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
@@ -182,8 +182,8 @@ li:hover {
 } */
 
 .section-title {
-  font-size: 30px;
-  margin-bottom: 10px;
+  font-size: 26px;
+  margin-bottom: 15px;
 }
 
 /* PRODUCTS SECTION */
@@ -283,7 +283,7 @@ li:hover {
 
 .products-section {
   width: 1200px;
-  margin: 0px auto 50px auto;
+  margin: 0px auto 80px auto;
   /* height: 2000px; */
 }
 
@@ -331,7 +331,7 @@ li:hover {
 /* SOCIALS */
 .socials {
   width: 1200px;
-  margin: 0px auto 250px auto;
+  margin: 0px auto 200px auto;
 }
 
 .socials-img {
@@ -345,9 +345,9 @@ li:hover {
 }
 
 .icon {
-  width: 100px;
+  width: 80px;
   position: absolute;
-  margin: 78px 143px;
+  margin: 88px 153px;
 }
 
 .instagram {
@@ -375,16 +375,15 @@ footer {
 }
 
 .footer-box p {
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 20px;
   font-weight: 600;
 }
 
 footer li {
-  font-size: 20px;
+  font-size: 16px;
   list-style: none;
   line-height: 1.6;
-  border: none;
 }
 
 .logo-footer {
@@ -406,7 +405,7 @@ footer li {
 }
 
 .copyright {
-  font-size: 20px;
+  font-size: 16px;
   padding: 60px 0px 0px 0px;
   display: flex;
   justify-content: center;
