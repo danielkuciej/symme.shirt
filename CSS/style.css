@@ -39,21 +39,42 @@ nav a {
   padding-right: 40px;
   padding-left: 40px;
   border-right: #444 solid 1px;
+  border-left: #444 solid 1px;
+  padding: 13px 25px;
+  border-radius: 15px;
+  border-color: #f3f3f3;
+  margin-right: 20px;
 }
 
 nav a:nth-child(4) {
-  border: none;
+  /* border: none; */
 }
 
 nav a:hover {
+  background-color: #555;
   color: #ffd300;
   text-shadow: -0.15px 0.15px 0 #444, 0.15px 0.15px 0 #444,
     0.15px -0.15px 0 #444, -0.15px -0.15px 0 #444;
 }
 
+a:link {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+
+a:active {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #f3f3f3;
+  text-decoration: none;
+}
+
 .nav-cart_btn {
-  padding: 15px 25px;
-  border-radius: 50px;
+  padding: 13px 25px;
+  border-radius: 15px;
   border: #444 solid 1px;
   font-size: 14px;
   font-weight: 500;
