@@ -105,19 +105,33 @@ section {
   letter-spacing: 1px;
 }
 
-.contacts_box {
+/* .contacts_box {
   display: grid;
   grid-template-columns: repeat(2, 450px);
   grid-template-rows: repeat(2, 220px);
   gap: 50px;
   justify-content: center;
+} */
+
+.contact_container {
+  display: flex;
+  gap: 50px;
 }
 
-.contacts_box p {
+.img {
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px #333;
+  border: #f3f3f3 solid 1px;
+}
+
+.contact_box p {
   color: #ffd300;
 }
 
 .box {
+  width: 450px;
+  height: 220px;
+  margin-bottom: 50px;
   background-color: #555;
   box-shadow: 10px 10px 10px #333;
   border: #f3f3f3 solid 1px;
@@ -164,6 +178,10 @@ span {
   height: 100px;
   display: flex;
   justify-content: center;
+}
+
+.social_box {
+  margin-bottom: 0px;
 }
 
 .icon {
