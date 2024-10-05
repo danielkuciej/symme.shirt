@@ -46,10 +46,6 @@ nav a {
   margin-right: 20px;
 }
 
-nav a:nth-child(4) {
-  /* border: none; */
-}
-
 nav a:hover {
   background-color: #555;
   color: #ffd300;
@@ -328,6 +324,11 @@ footer li {
   font-size: 16px;
   list-style: none;
   line-height: 1.6;
+}
+
+.o-nas a {
+  color: #444;
+  text-decoration: none;
 }
 
 .logo-footer {
