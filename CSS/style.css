@@ -53,16 +53,8 @@ nav a:hover {
     0.15px -0.15px 0 #444, -0.15px -0.15px 0 #444;
 }
 
-a:link {
-  color: #f3f3f3;
-  text-decoration: none;
-}
-
-a:active {
-  color: #f3f3f3;
-  text-decoration: none;
-}
-
+a:link,
+a:active,
 a:visited {
   color: #f3f3f3;
   text-decoration: none;
@@ -131,6 +123,7 @@ a:visited {
 .img-board {
   height: 164px;
   width: 164px;
+  /* border: #ffd300 solid 0.5px; */
 }
 
 .img-1 {
@@ -328,7 +321,10 @@ footer li {
 
 .o-nas a {
   color: #444;
-  text-decoration: none;
+}
+
+.o-nas a:hover {
+  text-decoration: underline;
 }
 
 .logo-footer {

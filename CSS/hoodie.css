@@ -58,16 +58,8 @@ nav a:hover {
     0.15px -0.15px 0 #444, -0.15px -0.15px 0 #444;
 }
 
-a:link {
-  color: #f3f3f3;
-  text-decoration: none;
-}
-
-a:active {
-  color: #f3f3f3;
-  text-decoration: none;
-}
-
+a:link,
+a:active,
 a:visited {
   color: #f3f3f3;
   text-decoration: none;
@@ -169,6 +161,14 @@ footer li {
   font-size: 16px;
   list-style: none;
   line-height: 1.6;
+}
+
+.o-nas a {
+  color: #444;
+}
+
+.o-nas a:hover {
+  text-decoration: underline;
 }
 
 .logo-footer {
