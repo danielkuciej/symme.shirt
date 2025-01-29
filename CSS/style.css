@@ -32,6 +32,7 @@ nav {
   list-style: none;
   align-items: center;
   font-size: 14px;
+  gap: 20px;
   cursor: pointer;
   color: #f3f3f3;
 }
@@ -44,7 +45,6 @@ nav a {
   padding: 13px 25px;
   border-radius: 15px;
   border-color: #f3f3f3;
-  margin-right: 20px;
 }
 
 nav a:hover {
