@@ -15,7 +15,7 @@ body {
   font-weight: 300;
   background-color: #f3f3f3;
   /* background-color: #444; */
-  border-bottom: #444 solid 8px;
+  border-bottom: #444 solid 0.8rem;
 }
 
 /* NAVIGATION */
@@ -23,10 +23,11 @@ nav {
   background-color: #444;
   opacity: 0.9;
 }
+
 .nav {
-  width: 1200px;
+  max-width: 120rem;
   margin: auto;
-  padding: 20px 0px;
+  padding: 1.6rem 0.9rem;
   color: #f3f3f3;
   display: flex;
   justify-content: space-between;
@@ -36,19 +37,17 @@ nav {
   display: flex;
   list-style: none;
   align-items: center;
-  font-size: 14px;
+  font-size: 1.4rem;
   cursor: pointer;
 }
 
 nav a {
-  padding-right: 40px;
-  padding-left: 40px;
+  padding: 1.2rem 2.4rem;
+  margin-right: 2.4rem;
   border-right: #444 solid 1px;
   border-left: #444 solid 1px;
-  padding: 13px 25px;
   border-radius: 15px;
   border-color: #f3f3f3;
-  margin-right: 20px;
 }
 
 nav a:hover {
@@ -72,10 +71,10 @@ a:visited {
 }
 
 .nav-cart_btn {
-  padding: 13px 25px;
+  padding: 1.2rem 2.4rem;
   border-radius: 15px;
   border: #444 solid 1px;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 500;
   cursor: pointer;
 }
@@ -85,26 +84,26 @@ a:visited {
   background-color: #ffd300;
   /* color: #ffd300; */
   color: #444;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 500;
 }
 
 /* PRODUCTS SECTION */
 .products-section {
-  width: 1200px;
-  margin: 100px auto;
+  max-width: 120rem;
+  margin: 9.6rem auto;
 }
 
 h2 {
-  margin-bottom: 30px;
-  font-size: 30px;
+  margin-bottom: 3.2rem;
+  font-size: 3rem;
 }
 
 .products_box {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  gap: 30px 50px;
+  gap: 3.2rem 4.8rem;
 }
 
 .prod-img {
@@ -115,19 +114,19 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15px;
+  margin-top: 1.6rem;
 }
 
 .product-info p {
-  margin-bottom: 15px;
-  font-size: 16px;
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .product-info button {
-  padding: 13px 25px;
+  padding: 1.4rem 2.4rem;
   border-radius: 15px;
   border: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   cursor: pointer;
   background-color: #d6d6d6;
 }
@@ -138,14 +137,14 @@ h2 {
 
 /* FOOTER */
 footer {
+  padding: 12.8rem 0;
   background-color: #ffd300;
   color: #444;
-  height: 600px;
   align-content: center;
 }
 
 .footer-box {
-  width: 1400px;
+  max-width: 140rem;
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -153,13 +152,13 @@ footer {
 }
 
 .footer-box p {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
   font-weight: 600;
 }
 
 footer li {
-  font-size: 16px;
+  font-size: 1.6rem;
   list-style: none;
   line-height: 1.6;
 }
@@ -173,13 +172,13 @@ footer li {
 }
 
 .logo-footer {
-  width: 150px;
+  width: 15rem;
 }
 
 .third-column {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 65px 1fr;
+  grid-template-rows: 6.4rem 1fr;
 }
 
 .third-column p {
@@ -187,13 +186,13 @@ footer li {
 }
 
 .logo {
-  width: 200px;
+  width: 20rem;
 }
 
 .copyright {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 400;
-  padding: 60px 0px 0px 0px;
+  padding: 6rem 0 0 0;
   display: flex;
   justify-content: center;
 }
